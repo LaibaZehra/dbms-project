@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace donor_detail
+namespace Project
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace donor_detail
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new main());
         }
     }
 }
